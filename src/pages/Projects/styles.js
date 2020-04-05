@@ -69,5 +69,6 @@ export const Link = styled.a`
   text-decoration: none;
   color: #333;
   font-size: 18px;
+  cursor: pointer;
   font-weight: bold;
 `;

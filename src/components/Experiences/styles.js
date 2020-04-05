@@ -27,7 +27,7 @@ export const ExperiencesContainer = styled.div`
   @media (max-width: 599px) {
     flex-direction: column;
     align-items: center;
-    text-align: justify;
+    text-align: center;
   }
 `;
 
