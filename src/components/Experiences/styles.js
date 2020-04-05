@@ -23,6 +23,7 @@ export const ExperiencesContainer = styled.div`
   margin-top: 30px;
   padding-bottom: ${props => props.first ? 0 : '30px'};
   border-bottom: ${props => props.first ? 'none': '2px solid #ddd'};
+  line-height: 2;
 
   @media (max-width: 599px) {
     flex-direction: column;

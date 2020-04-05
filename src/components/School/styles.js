@@ -22,6 +22,7 @@ export const SchoolDescription = styled.div`
   margin-top: 30px;
   padding-bottom: 30px;
   border-bottom: ${props => props.last ? 'none': '2px solid #ddd'};
+  line-height: 2;
 
   @media (max-width: 599px) {
     flex-direction: column;
