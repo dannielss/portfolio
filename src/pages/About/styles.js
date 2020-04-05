@@ -12,12 +12,12 @@ const show = keyframes`
 export const Container = styled.div`
   max-width: 1020px;
   margin: 20px auto;
-  padding: 40px;
+  padding: 10px;
   animation: ${show} 1s linear;
 `;
 
 export const Content = styled.div`
   background: #F5F5F5;
-  padding: 40px;
+  padding: 20px;
   border-radius: 4px;
 `;

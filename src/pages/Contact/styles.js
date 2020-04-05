@@ -22,7 +22,6 @@ export const Container = styled.div`
 export const Content = styled.div`
   background: #F5F5F5;
   padding: 30px;
-  margin: 10px;
   border-radius: 4px;
 `;
 
