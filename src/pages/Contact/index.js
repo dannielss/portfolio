@@ -11,7 +11,7 @@ export default function Contact() {
           Fale comigo!
         </Title>
         <SubTitle>
-          Me adicione, me mande um e-mail ou somente acomapnhe meu trabalho :)
+          Me adicione, me mande um e-mail ou somente acompanhe meu trabalho :)
         </SubTitle>
         <ContainerLink>
           <Link href="https://www.linkedin.com/in/daniel-sousa887/" target="_blank">
