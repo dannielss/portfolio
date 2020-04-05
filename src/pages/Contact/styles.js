@@ -16,7 +16,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(100% - 64px);
+  height: calc(100% - 104px);
 `;
 
 export const Content = styled.div`
