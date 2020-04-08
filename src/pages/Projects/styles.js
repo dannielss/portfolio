@@ -42,8 +42,13 @@ export const List = styled.div`
 export const Image = styled.img`
   width: 100%;
   margin: 0 auto;
-  border-radius: 2px;
+  border-radius: 4px;
   height: ${props => props.size ? props.size : '100%'};
+  transition: 0.2s;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 `;
 
 export const Description = styled.div`
@@ -51,6 +56,7 @@ export const Description = styled.div`
   padding: 20px;
   line-height: 2;
   text-align: justify;
+  height: 250px;
 `;
 
 export const TitleDescription = styled.h3`
@@ -71,4 +77,8 @@ export const Link = styled.a`
   font-size: 18px;
   cursor: pointer;
   font-weight: bold;
+
+  &:hover {
+    color: black;
+  }
 `;

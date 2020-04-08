@@ -1,6 +1,6 @@
 import React, { useRef, useCallback, useEffect } from 'react';
 
-import { Container, Image, Text } from './styles';
+import { Container, Image, Text, FlipBox, FlipBoxInner, FlipBoxFront } from './styles';
 import Daniel from '../../assets/daniel.jpg';
 
 export default function Home() {
@@ -29,7 +29,13 @@ export default function Home() {
 
   return (
     <Container>
-      <Image src={Daniel} alt="Daniel de Sousa" />
+      <FlipBox>
+        <FlipBoxInner>
+          <FlipBoxFront>
+            <Image src={Daniel} alt="Daniel de Sousa" />
+          </FlipBoxFront>
+        </FlipBoxInner>
+      </FlipBox>
       <Text ref={ref}></Text>
     </Container>
   );

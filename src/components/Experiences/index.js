@@ -37,7 +37,7 @@ export default function Experiences() {
           </Techs>
         </Job>
       </ExperiencesContainer>
-      <ExperiencesContainer>
+      <ExperiencesContainer last>
         <Date>2018 - 2019</Date>
         <Job>
           <Name>BWCA - Estagiário Full Stack</Name>

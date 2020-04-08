@@ -33,8 +33,8 @@ export default function Projects() {
             a rota de busca de um produto, uma rota para buscar todos os produtos e uma rota para cadastro de produto 
             com upload de arquivo.
           </Description>
-          <a href="https://github.com/Daniels887/web-scraping" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
-            <Image src={Github} alt="Aplicativo React Native" />
+          <a href="https://github.com/Daniels887/githubapp" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
+            <Image src={Github} alt="Web App GitHub" />
           </a>
           <Description>
             <TitleDescription>Web App utilizando a api do Github</TitleDescription>
@@ -42,14 +42,18 @@ export default function Projects() {
             os dados foram buscados da api pública do Github, onde podemos pesquisar um repósitorio
             e ver detalhes sobre ele e issues que o mesmo possui.
           </Description>
-          <Image src={Node} alt="Web Scraping com Node" />
+          <a href="https://github.com/Daniels887/web-scraping" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
+            <Image src={Node} alt="Web Scraping com Node" />
+          </a>
           <Description>
             <TitleDescription>Web Scraping com Node</TitleDescription>
             Script de teste feito com Node e a biblioteca Cheerio para percorrer a DOM da resposta da requisição,
             utilizado dotenv para proteger dados sensíveis e mongoose como ODM do mongoDB para salvar os dados
             extraídos do site pesquisado.
           </Description>
-          <Image src={Rocketshoes} alt="Web app de um E-commerce de tênis" />
+          <a href="https://github.com/Daniels887/rocketshoes" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
+            <Image src={Rocketshoes} alt="Web app de um E-commerce de tênis" />
+          </a>
           <Description>
             <TitleDescription>Web app de um E-commerce de tênis</TitleDescription>
             Web App utilizando React, Redux e Redux-saga, aplicação feita durante o bootcamp goStack 

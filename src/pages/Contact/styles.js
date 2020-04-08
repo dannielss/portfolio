@@ -1,4 +1,6 @@
 import styled, { keyframes } from 'styled-components';
+import { FaLinkedin, FaWhatsapp, FaGithub } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 const show = keyframes`
   from {
@@ -10,7 +12,7 @@ const show = keyframes`
 `;
 
 export const Container = styled.div`
-  max-width: 1020px;
+  max-width: 500px;
   margin: 0 auto;
   animation: ${show} 1s linear;
   display: flex;
@@ -48,4 +50,41 @@ export const ContainerLink = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 20px;
+`;
+
+export const Linkedin = styled(FaLinkedin)`
+  color: #333;
+
+  &:hover {
+    color: #0e76a8;
+    transform: scale(1.1); 
+  }
+`;
+
+export const Whatsapp = styled(FaWhatsapp)`
+  color: #333;
+  
+  &:hover {
+    color: #25d366;
+    transform: scale(1.1); 
+  }
+`;
+
+export const Github = styled(FaGithub)`
+  color: #333;
+  
+  &:hover {
+    color: #24292e;
+    transform: scale(1.1); 
+  }
+`;
+
+export const Email = styled(MdEmail)`
+  color: #333;
+  transition: 0.2s;
+  
+  &:hover {
+    color: #0072c6;
+    transform: scale(1.1); 
+  }
 `;

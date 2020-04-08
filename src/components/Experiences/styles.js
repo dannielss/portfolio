@@ -13,16 +13,20 @@ export const Title = styled.h1`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
+  background: #F5F5F5;
+  padding: 30px;
+  border-radius: 4px;
 `;
 
 export const ExperiencesContainer = styled.div`
   display: flex;
   justify-content: space-between;
   text-align: right;
-  margin-bottom: ${props => props.first ? '30px' : 0};
+  margin-bottom: ${props => props.last ? '30px' : 0};
   margin-top: 30px;
-  padding-bottom: ${props => props.first ? 0 : '30px'};
-  border-bottom: ${props => props.first ? 'none': '2px solid #ddd'};
+  padding-bottom: ${props => props.last ? 0 : '30px'};
+  border-bottom: ${props => props.last ? 'none': '2px solid #ddd'};
   line-height: 2;
 
   @media (max-width: 599px) {

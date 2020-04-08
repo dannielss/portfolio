@@ -23,3 +23,23 @@ export const Text = styled.h1`
   font-weight: normal;
   text-align: center;
 `;
+
+export const FlipBoxInner = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+`;
+
+export const FlipBox = styled.div`
+  background-color: transparent;
+  perspective: 1000px;
+  
+  &:hover ${FlipBoxInner} {
+    transform: rotateY(180deg);
+  }
+`;
+
+export const FlipBoxFront = styled.div``;

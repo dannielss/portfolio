@@ -13,6 +13,10 @@ export const Title = styled.h1`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
+  background: #F5F5F5;
+  padding: 30px;
+  border-radius: 4px;
 `;
 
 export const SchoolDescription = styled.div`
