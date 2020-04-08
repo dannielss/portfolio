@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { List, Title, ListItem, Name, Bar, Content, ListHidden, More, Text } from './styles';
+import { List, Title, ListItem, Name, Bar, Content, ListHidden, More, Text, Less } from './styles';
 
 export default function Skills() {
   const [show, setShow] = useState(false);
@@ -120,6 +120,9 @@ export default function Skills() {
           </Bar>
         </ListItem>
       </ListHidden>
+      <Less onClick={() => setShow(false)} show={show}>
+        <Text>Ver menos</Text>
+      </Less>
     </List>
   );
 }

@@ -86,3 +86,13 @@ export const Text = styled.p`
     color: black;
   }
 `;
+
+export const Less = styled.div`
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  display: ${props => props.show ? 'block' : 'none'};
+  transition: 0.5s;
+`;
