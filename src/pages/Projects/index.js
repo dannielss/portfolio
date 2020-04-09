@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Title, List, Content, Image, Description, TitleDescription, Link, More } from './styles';
+import { Container, Title, List, Content, Image, Description, TitleDescription, Link, More, Techs, TechItem, TechItemContainer } from './styles';
 
 import Dashboard from '../../assets/dashboard.png';
 import Github from '../../assets/Github.png';
@@ -19,9 +19,16 @@ export default function Projects() {
           <Description>
             <TitleDescription>Dashboard de Administador com React</TitleDescription>
             Dashboard criado para um teste, utilizando React. As principais funcionalidades são:
-            cadastro de parafuso, listagem de todos os parafusos e visualização de um parafuso somente.
-            Na visualização, temos o efeito de zoom na imagem, e na criação temos um dropzone com preview, feito 
-            com React.
+            cadastro de parafuso, listagem de todos os parafusos e detalhe de um único parafuso.
+            No detalhe, temos o zoom na imagem, e na criação temos um dropzone com preview.
+            <Techs>
+              <TechItemContainer>
+                <TechItem>React</TechItem>
+                <TechItem>Styled components</TechItem>
+                <TechItem>Axios</TechItem>
+                <TechItem>React-router-dom</TechItem>
+              </TechItemContainer>
+            </Techs>
           </Description>
           <a href="https://github.com/Daniels887/dashboard-back" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
             <Image src={Node} alt="Dashboard Back-end" />
@@ -30,8 +37,15 @@ export default function Projects() {
             <TitleDescription>Api do Dashboard com ExpressJS</TitleDescription>
             Api criada para o teste do Dashboard de Administrador, utilizando ExpressJS,
             orientação a objetos, multer para upload de imagem, e mongoose como ODM do mongoDB. Nessa api temos
-            a rota de busca de um produto, uma rota para buscar todos os produtos e uma rota para cadastro de produto 
-            com upload de arquivo.
+            a rota de busca de um produto, rota para buscar todos os produtos e rota para cadastro de produto.
+            <Techs>
+              <TechItemContainer>
+                <TechItem>Node</TechItem>
+                <TechItem>ExpressJS</TechItem>
+                <TechItem>Mongoose</TechItem>
+                <TechItem>Multer</TechItem>
+              </TechItemContainer>
+            </Techs>
           </Description>
           <a href="https://github.com/Daniels887/githubapp" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
             <Image src={Github} alt="Web App GitHub" />
@@ -41,6 +55,14 @@ export default function Projects() {
             Web App utilizando React, styled-components, eslint, prettier e react-icons. Nessa aplicação
             os dados foram buscados da api pública do Github, onde podemos pesquisar um repósitorio
             e ver detalhes sobre ele e issues que o mesmo possui.
+            <Techs>
+              <TechItemContainer>
+                <TechItem>React</TechItem>
+                <TechItem>PHP</TechItem>
+                <TechItem>JavaScript</TechItem>
+                <TechItem>MySql</TechItem>
+              </TechItemContainer>
+            </Techs>
           </Description>
           <a href="https://github.com/Daniels887/web-scraping" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
             <Image src={Node} alt="Web Scraping com Node" />
@@ -50,6 +72,14 @@ export default function Projects() {
             Script de teste feito com Node e a biblioteca Cheerio para percorrer a DOM da resposta da requisição,
             utilizado dotenv para proteger dados sensíveis e mongoose como ODM do mongoDB para salvar os dados
             extraídos do site pesquisado.
+            <Techs>
+              <TechItemContainer>
+                <TechItem>React</TechItem>
+                <TechItem>PHP</TechItem>
+                <TechItem>JavaScript</TechItem>
+                <TechItem>MySql</TechItem>
+              </TechItemContainer>
+            </Techs>
           </Description>
           <a href="https://github.com/Daniels887/rocketshoes" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
             <Image src={Rocketshoes} alt="Web app de um E-commerce de tênis" />
@@ -58,8 +88,15 @@ export default function Projects() {
             <TitleDescription>Web app de um E-commerce de tênis</TitleDescription>
             Web App utilizando React, Redux e Redux-saga, aplicação feita durante o bootcamp goStack 
             da Rocketseat, nele foi utilizado Redux para gerenciar o estado global da aplicação, redux-saga
-            para gerenciar os efeitos colaterais da aplicação. Para padronizar o desenvolvimento em equipe,
-            configuramos o eslint e o prettier, utilizado styled-components para estilização.
+            para gerenciar os efeitos colaterais da aplicação.
+            <Techs>
+              <TechItemContainer>
+                <TechItem>React</TechItem>
+                <TechItem>PHP</TechItem>
+                <TechItem>JavaScript</TechItem>
+                <TechItem>MySql</TechItem>
+              </TechItemContainer>
+            </Techs>
           </Description>
         </List>
         <More>

@@ -64,11 +64,19 @@ export const Description = styled.p`
   color: #333;
 `;
 
-export const Techs = styled.ul`
-  list-style: none;
+export const Techs = styled.div`
+  color: green;
 `;
 
-export const TechItem = styled.li`
+export const TechItem = styled.div`
+  border: 1px solid green;
+  border-radius: 4px;
+  padding: 3px 10px;
+  margin-left: 10px;
+
+  @media (max-width: 599px) {
+    margin-bottom: 10px;
+  }
 `;
 
 export const TechTitle = styled.p`
@@ -76,4 +84,15 @@ export const TechTitle = styled.p`
   margin-top: 10px;
   margin-bottom: 10px;
   color: #333;
+`;
+
+export const TechItemContainer = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  @media (max-width: 599px) {
+    justify-content: center;
+    flex-direction: column;
+  }
 `;

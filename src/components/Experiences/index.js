@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Title, ExperiencesContainer, Date, Job, Name, Description, Techs, TechItem, TechTitle } from './styles';
+import { Container, Title, ExperiencesContainer, Date, Job, Name, Description, Techs, TechItem, TechTitle, TechItemContainer } from './styles';
 
 export default function Experiences() {
   return (
@@ -15,11 +15,13 @@ export default function Experiences() {
           </Description>
           <Techs>
             <TechTitle>Principais tecnologias utilizadas:</TechTitle>
-            <TechItem>React</TechItem>
-            <TechItem>Redux</TechItem>
-            <TechItem>Typescript</TechItem>
-            <TechItem>Cypress</TechItem>
-            <TechItem>Jest</TechItem>
+            <TechItemContainer>
+              <TechItem>React</TechItem>
+              <TechItem>Redux</TechItem>
+              <TechItem>Typescript</TechItem>
+              <TechItem>Cypress</TechItem>
+              <TechItem>Jest</TechItem>
+            </TechItemContainer>
           </Techs>
         </Job>
       </ExperiencesContainer>
@@ -31,9 +33,12 @@ export default function Experiences() {
             além de dar manutenção e criar feature nos outros sistemas da empresa.</Description>
           <Techs>
             <TechTitle>Principais tecnologias utilizadas:</TechTitle>
-            <TechItem>React</TechItem>
-            <TechItem>Node</TechItem>
-            <TechItem>Electron</TechItem>
+            <TechItemContainer>
+              <TechItem>React</TechItem>
+              <TechItem>Node</TechItem>
+              <TechItem>Electron</TechItem>
+              <TechItem>JavaScript</TechItem>
+            </TechItemContainer>
           </Techs>
         </Job>
       </ExperiencesContainer>
@@ -44,9 +49,12 @@ export default function Experiences() {
           <Description>Responsável por construir e dar manutenção em sistemas e sites institucionais.</Description>
           <Techs>
             <TechTitle>Principais tecnologias utilizadas:</TechTitle>
-            <TechItem>React</TechItem>
-            <TechItem>PHP</TechItem>
-            <TechItem>JavaScript</TechItem>
+            <TechItemContainer>
+              <TechItem>React</TechItem>
+              <TechItem>PHP</TechItem>
+              <TechItem>JavaScript</TechItem>
+              <TechItem>MySql</TechItem>
+            </TechItemContainer>
           </Techs>
         </Job>
       </ExperiencesContainer>

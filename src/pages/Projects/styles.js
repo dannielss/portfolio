@@ -53,16 +53,20 @@ export const Image = styled.img`
 
 export const Description = styled.div`
   border-radius: 2px;
-  padding: 20px;
+  padding: 0 20px;
   line-height: 2;
   text-align: justify;
   height: 250px;
+
+  @media (max-width: 599px) {
+    height: 100%;
+  }
 `;
 
 export const TitleDescription = styled.h3`
   color: #333;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 `;
 
 export const More = styled.div`
@@ -80,5 +84,32 @@ export const Link = styled.a`
 
   &:hover {
     color: black;
+  }
+`;
+
+export const Techs = styled.div`
+  color: green;
+  margin-top: 20px;
+`;
+
+export const TechItem = styled.div`
+  border: 1px solid green;
+  border-radius: 4px;
+  padding: 3px 10px;
+  margin-left: 10px;
+
+  @media (max-width: 599px) {
+    margin-bottom: 10px;
+  }
+`;
+
+export const TechItemContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 599px) {
+    justify-content: center;
+    flex-direction: column;
   }
 `;
