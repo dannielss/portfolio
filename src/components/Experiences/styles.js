@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
   color: #333;
 
@@ -76,6 +76,7 @@ export const TechItem = styled.div`
 
   @media (max-width: 599px) {
     margin-bottom: 10px;
+    width: 100%;
   }
 `;
 

@@ -10,7 +10,7 @@ export const List = styled.div`
 `;
 
 export const Title = styled.h1`
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
   color: #333;
 

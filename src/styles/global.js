@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import background from '../assets/background.jpg';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
@@ -13,7 +14,8 @@ const GlobalStyle = createGlobalStyle`
     height: 100vh;
   }
   body {
-    background: #444;
+    background-image: url(${background});
+    background-position: cover;
     -webkit-font-smoothing: antialiased !important;
   }
   body, input, button {

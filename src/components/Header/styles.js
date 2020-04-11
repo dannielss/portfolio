@@ -4,7 +4,7 @@ import { MdMenu, MdClose, MdLaptop } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  background: #333;
+  background-image: linear-gradient(to top, #333, #444);
   height: 64px;
   display: flex;
   justify-content: space-between;
