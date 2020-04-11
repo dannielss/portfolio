@@ -100,6 +100,8 @@ export const TechItem = styled.div`
 
   @media (max-width: 599px) {
     margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
   }
 `;
 
