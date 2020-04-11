@@ -26,7 +26,7 @@ export default function Projects() {
                 <TechItem>React</TechItem>
                 <TechItem>Styled components</TechItem>
                 <TechItem>Axios</TechItem>
-                <TechItem>React-router-dom</TechItem>
+                <TechItem>React router dom</TechItem>
               </TechItemContainer>
             </Techs>
           </Description>
@@ -58,9 +58,9 @@ export default function Projects() {
             <Techs>
               <TechItemContainer>
                 <TechItem>React</TechItem>
-                <TechItem>PHP</TechItem>
-                <TechItem>JavaScript</TechItem>
-                <TechItem>MySql</TechItem>
+                <TechItem>Styled Components</TechItem>
+                <TechItem>Prettier</TechItem>
+                <TechItem>Eslint</TechItem>
               </TechItemContainer>
             </Techs>
           </Description>
@@ -74,10 +74,10 @@ export default function Projects() {
             extraídos do site pesquisado.
             <Techs>
               <TechItemContainer>
-                <TechItem>React</TechItem>
-                <TechItem>PHP</TechItem>
-                <TechItem>JavaScript</TechItem>
-                <TechItem>MySql</TechItem>
+                <TechItem>Node</TechItem>
+                <TechItem>Mongoose</TechItem>
+                <TechItem>Cheerio</TechItem>
+                <TechItem>Request</TechItem>
               </TechItemContainer>
             </Techs>
           </Description>
@@ -92,9 +92,9 @@ export default function Projects() {
             <Techs>
               <TechItemContainer>
                 <TechItem>React</TechItem>
-                <TechItem>PHP</TechItem>
-                <TechItem>JavaScript</TechItem>
-                <TechItem>MySql</TechItem>
+                <TechItem>Redux</TechItem>
+                <TechItem>Redux Saga</TechItem>
+                <TechItem>Styled components</TechItem>
               </TechItemContainer>
             </Techs>
           </Description>
