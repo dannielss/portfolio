@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const HomeContainer = styled.div`
   max-width: 1020px;
-  margin: 0 auto;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,7 +61,6 @@ export const Navigate = styled(Link)`
   padding: 15px;
   background: #F5F5F5;
   align-self: flex-end;
-  margin-top: 10px;
   transition: 0.2s;
 
   &:hover {
