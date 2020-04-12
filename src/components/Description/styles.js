@@ -31,6 +31,11 @@ export const Image = styled.img`
   &:hover {
     transform: scale(1.1);
   }
+  
+  @media (max-width: 599px) {
+    width: 100px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const ContentImage = styled.div`
@@ -38,4 +43,8 @@ export const ContentImage = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 599px) {
+    flex-direction: column;
+  }
 `;

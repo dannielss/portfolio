@@ -7,17 +7,20 @@ export const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: calc(100% - 104px);
   padding: 10px;
 `;
 
 export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 `;
 
 
 export const Image = styled.img`
-  margin-top: 20px;
   max-width: 350px;
   width: 100%;
   border-radius: 50%;
