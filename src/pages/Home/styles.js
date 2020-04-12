@@ -1,16 +1,23 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-export const Container = styled.div`
+export const HomeContainer = styled.div`
+  max-width: 1020px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: calc(100% - 104px);
-  margin: 0 10px;
+  padding: 10px;
+`;
+
+export const Container = styled.div`
 `;
 
 
 export const Image = styled.img`
+  margin-top: 20px;
   max-width: 350px;
   width: 100%;
   border-radius: 50%;
@@ -43,3 +50,18 @@ export const FlipBox = styled.div`
 `;
 
 export const FlipBoxFront = styled.div``;
+
+export const Navigate = styled(Link)`
+  text-decoration: none;
+  color: #333;
+  border-radius: 4px;
+  padding: 15px;
+  background: #F5F5F5;
+  align-self: flex-end;
+  margin-top: 10px;
+  transition: 0.2s;
+
+  &:hover {
+    background: #ddd;
+  }
+`;

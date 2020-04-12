@@ -73,6 +73,13 @@ export const TechItem = styled.div`
   border-radius: 4px;
   padding: 3px 10px;
   margin-left: 10px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    background: green;
+    color: white;
+  }
 
   @media (max-width: 599px) {
     margin-bottom: 10px;

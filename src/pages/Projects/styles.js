@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const show = keyframes`
   from {
@@ -9,10 +10,15 @@ const show = keyframes`
   }
 `;
 
-export const Container = styled.div`
+export const ProjectContainer = styled.div`
   max-width: 1020px;
   margin: 20px auto;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const Container = styled.div`
   animation: ${show} 1s linear;
 `;
 
@@ -75,7 +81,7 @@ export const More = styled.div`
   margin-top: 30px;
 `;
 
-export const Link = styled.a`
+export const Linka = styled.a`
   text-decoration: none;
   color: #333;
   font-size: 18px;
@@ -97,6 +103,13 @@ export const TechItem = styled.div`
   border-radius: 4px;
   padding: 3px 10px;
   margin-left: 10px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    background: green;
+    color: white;
+  }
 
   @media (max-width: 599px) {
     margin-bottom: 10px;
@@ -113,5 +126,20 @@ export const TechItemContainer = styled.div`
   @media (max-width: 599px) {
     justify-content: center;
     flex-direction: column;
+  }
+`;
+
+export const Navigate = styled(Link)`
+  text-decoration: none;
+  color: #333;
+  border-radius: 4px;
+  padding: 15px;
+  background: #F5F5F5;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  transition: 0.2s;
+
+  &:hover {
+    background: #ddd;
   }
 `;

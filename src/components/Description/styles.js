@@ -23,3 +23,19 @@ export const Text = styled.p`
   color: #333;
   line-height: 2;
 `;
+
+export const Image = styled.img`
+  width: 120px;
+  margin-right: 20px;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+`;
+
+export const ContentImage = styled.div`
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
