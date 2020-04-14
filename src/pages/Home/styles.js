@@ -7,7 +7,7 @@ export const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: calc(100% - 104px);
+  height: calc(100% - 144px);
   padding: 10px;
 `;
 
