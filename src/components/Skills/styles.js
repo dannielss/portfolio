@@ -9,6 +9,12 @@ export const List = styled.div`
   border-radius: 4px;
 `;
 
+export const ContainerList = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+`;
+
 export const Title = styled.h1`
   margin-top: 20px;
   margin-bottom: 20px;
@@ -19,9 +25,6 @@ export const Title = styled.h1`
   }
 `;
 
-export const ListItem = styled.li`
-  margin: 20px 0;
-`;
 
 export const Name = styled.h3`
   font-size: 16px;
@@ -57,17 +60,22 @@ const opacity = keyframes`
   }
 `;
 
+export const ListItem = styled.li`
+  margin: 10px 0;
+`;
+
+export const ListItemHidden = styled.li`
+  margin: 10px 0;
+  display: ${props => props.show ? 'block' : 'none'};
+  animation: ${opacity} 0.5s ease-in;
+`;
+
 export const Content = styled.span`
   height: 2px;
   float: left;
   background: #2187e7;
   animation: ${props => show(props.width)} 2s ease-out;
   animation-fill-mode: forwards;
-`;
-
-export const ListHidden = styled.div`
-  display: ${props => props.show ? 'block' : 'none'};
-  animation: ${opacity} 0.5s ease-in;
 `;
 
 export const More = styled.div`
@@ -78,6 +86,7 @@ export const More = styled.div`
   font-weight: bold;
   display: ${props => props.show ? 'none' : 'block'};
   transition: 0.5s;
+  margin-top: 20px;
 
 `;
 
@@ -94,5 +103,6 @@ export const Less = styled.div`
   cursor: pointer;
   font-weight: bold;
   display: ${props => props.show ? 'block' : 'none'};
-  transition: 0.5s;
+  transition: 0.5s; 
+  margin-top: 20px;
 `;
