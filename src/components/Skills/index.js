@@ -29,26 +29,26 @@ export default function Skills() {
         </ListItem>
         <ListItem>
           <Name>Typescript</Name>
-          <Bar title="60%">
-            <Content width="60%"></Content>
-          </Bar>
-        </ListItem>
-        <ListItem>
-          <Name>React</Name>
           <Bar title="80%">
             <Content width="80%"></Content>
           </Bar>
         </ListItem>
         <ListItem>
+          <Name>React</Name>
+          <Bar title="85%">
+            <Content width="85%"></Content>
+          </Bar>
+        </ListItem>
+        <ListItem>
           <Name>Redux</Name>
-          <Bar title="70%">
-            <Content width="70%"></Content>
+          <Bar title="80%">
+            <Content width="80%"></Content>
           </Bar>
         </ListItem>
         <ListItem>
           <Name>React Native</Name>
-          <Bar title="70%">
-            <Content width="70%"></Content>
+          <Bar title="80%">
+            <Content width="80%"></Content>
           </Bar>
         </ListItem>
         <ListItem>
@@ -57,7 +57,18 @@ export default function Skills() {
             <Content width="90%"></Content>
           </Bar>
         </ListItem>
-       
+        <ListItemHidden show={show}>
+          <Name>Electron</Name>
+          <Bar title="80%">
+            <Content width="80%"></Content>
+          </Bar>
+        </ListItemHidden>
+        <ListItemHidden show={show}>
+          <Name>GraphQL</Name>
+          <Bar title="50%">
+            <Content width="50%"></Content>
+          </Bar>
+        </ListItemHidden>
         <ListItemHidden show={show}>
           <Name>Git</Name>
           <Bar title="80%">
@@ -66,20 +77,20 @@ export default function Skills() {
         </ListItemHidden>
         <ListItemHidden show={show}>
           <Name>Jest</Name>
-          <Bar title="50%">
-            <Content width="50%"></Content>
+          <Bar title="80%">
+            <Content width="80%"></Content>
           </Bar>
         </ListItemHidden>
         <ListItemHidden show={show}>
           <Name>Cypress</Name>
-          <Bar title="90%">
-            <Content width="90%"></Content>
+          <Bar title="100%">
+            <Content width="100%"></Content>
           </Bar>
         </ListItemHidden>
         <ListItemHidden show={show}>
           <Name>Node</Name>
-          <Bar title="70%">
-            <Content width="70%"></Content>
+          <Bar title="80%">
+            <Content width="80%"></Content>
           </Bar>
         </ListItemHidden>
         <ListItemHidden show={show}>
