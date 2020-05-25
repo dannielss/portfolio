@@ -1,6 +1,6 @@
 # Meu portfólio
 
-## Techs utilizadas:
+## :hammer: Techs utilizadas:
 
 - React;
 - React-icons;
@@ -8,4 +8,4 @@
 
 Você pode acessar em: [http://danielsousapereira.herokuapp.com/](http://danielsousapereira.herokuapp.com/)
 
-> Que a força esteja com você.
+> Que a força esteja com você :muscle:
