@@ -1,4 +1,4 @@
-# Meu portfólio
+<h1 align="center">:computer: Meu Portfólio</h1>
 
 ## :hammer: Techs utilizadas:
 
