@@ -101,12 +101,20 @@ export const MenuIcon = styled(MdMenu)`
   @media (max-width: 599px) {
     display: block;
   }
+
+  &:hover, &:focus {
+    transform: scale(1.2)
+  }
 `;
 
 export const MenuClose = styled(MdClose)`
   position: absolute;
   top: 15px;
   right: 35px;
+
+  &:hover, &:focus {
+    transform: scale(1.2)
+  }
 `;
 
 export const LaptopIcon = styled(MdLaptop)`

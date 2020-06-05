@@ -13,4 +13,8 @@ export const Link = styled.a`
   font-weight: bold;
   margin-left: 3px;
   color: white;
+
+  &:hover {
+    color: lightgray;
+  }
 `;

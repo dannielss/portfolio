@@ -26,7 +26,8 @@ export default function Header() {
         <MenuItem to="/projects">Projetos</MenuItem>
         <MenuItem to="/contact">Contatos</MenuItem>
       </Menu>
-      <MenuResponsive menu={menu}>
+      { menu ? (
+        <MenuResponsive menu={menu}>
         <MenuClose size={50} color="#ddd" onClick={closeNav} />
         <Content>
           <Item to="/" onClick={closeNav}>Home</Item>
@@ -35,7 +36,9 @@ export default function Header() {
           <Item to="/contact" onClick={closeNav}>Contatos</Item>
         </Content>
       </MenuResponsive>
-      <MenuIcon size={30} color="#ddd" onClick={openNav} />
+      ) : null}
+      
+      <MenuIcon size={30} color="#ddd" onClick={openNav} alt="MenuIcon" />
     </Container>
   );
 }

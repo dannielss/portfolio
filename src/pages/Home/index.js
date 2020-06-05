@@ -1,7 +1,7 @@
 import React, { useRef, useCallback, useEffect } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 
-import { HomeContainer, Container, Image, Text, FlipBox, FlipBoxInner, FlipBoxFront, Navigate } from './styles';
+import { HomeContainer, Container, Image, Text, Navigate } from './styles';
 import Daniel from '../../assets/daniel.jpg';
 
 export default function Home() {
@@ -30,15 +30,9 @@ export default function Home() {
 
   return (
     <HomeContainer>
-      <Navigate to="/about"><FaArrowRight color="#333" size="15"/></Navigate>
+      <Navigate to="/about"><FaArrowRight color="#333" size="15" alt="Arrow Right" /></Navigate>
       <Container>
-        <FlipBox>
-          <FlipBoxInner>
-            <FlipBoxFront>
-              <Image src={Daniel} alt="Daniel de Sousa" />
-            </FlipBoxFront>
-          </FlipBoxInner>
-        </FlipBox>
+          <Image src={Daniel} alt="Daniel de Sousa" />
         <Text ref={ref}></Text>
       </Container>
     </HomeContainer>

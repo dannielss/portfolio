@@ -10,7 +10,7 @@ import Rocketshoes from '../../assets/Rocketshoes.png';
 export default function Projects() {
   return (
     <ProjectContainer>
-      <Navigate to="/contact"><FaArrowRight color="#333" size="15"/></Navigate>
+      <Navigate to="/contact"><FaArrowRight color="#333" size="15" alt="Arrow Right" /></Navigate>
       <Container>
         <Content>
           <Title>Meus projetos</Title>
