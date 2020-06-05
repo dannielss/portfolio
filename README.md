@@ -5,6 +5,7 @@
 - React;
 - React-icons;
 - React-router-dom;
+- Styled-components.
 
 Você pode acessar em: [http://danielsousapereira.herokuapp.com/](http://danielsousapereira.herokuapp.com/)
 
