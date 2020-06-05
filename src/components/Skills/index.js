@@ -65,8 +65,8 @@ export default function Skills() {
         </ListItemHidden>
         <ListItemHidden show={show}>
           <Name>GraphQL</Name>
-          <Bar title="50%">
-            <Content width="50%"></Content>
+          <Bar title="80%">
+            <Content width="80%"></Content>
           </Bar>
         </ListItemHidden>
         <ListItemHidden show={show}>
