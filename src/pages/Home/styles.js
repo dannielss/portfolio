@@ -24,7 +24,7 @@ export const Image = styled.img`
   max-width: 350px;
   width: 100%;
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 `;
 
 export const Text = styled.h1`

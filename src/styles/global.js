@@ -14,9 +14,12 @@ const GlobalStyle = createGlobalStyle`
     height: 100vh;
   }
   body {
-    background-image: url(${background});
-    background-position: cover;
+    background: url(${background}) no-repeat center center fixed;
     -webkit-font-smoothing: antialiased !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   body, input, button {
     font-family: Roboto, sans-serif;

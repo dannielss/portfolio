@@ -104,7 +104,6 @@ export const TechItem = styled.div`
   padding: 3px 10px;
   margin-left: 10px;
   transition: 0.2s ease-in;
-  cursor: pointer;
 
   &:hover {
     background: green;
