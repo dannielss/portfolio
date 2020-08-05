@@ -3,9 +3,10 @@ import { FaArrowRight } from 'react-icons/fa';
 import { ProjectContainer, Container, Title, List, Content, Image, Description, TitleDescription, Linka, More, Techs, TechItem, TechItemContainer, Navigate } from './styles';
 
 import Dashboard from '../../assets/dashboard.png';
-import Github from '../../assets/Github.png';
 import Node from '../../assets/node.png';
-import Rocketshoes from '../../assets/Rocketshoes.png';
+import Boilerplate from '../../assets/boilerplate.png';
+import Graphql from '../../assets/graphql.jpeg';
+import Deno from '../../assets/deno.png';
 
 export default function Projects() {
   return (
@@ -13,8 +14,57 @@ export default function Projects() {
       <Navigate to="/contact"><FaArrowRight color="#333" size="15" alt="Arrow Right" /></Navigate>
       <Container>
         <Content>
-          <Title>Meus projetos</Title>
+          <Title>Alguns projetos meus...</Title>
           <List>
+            <a href="https://github.com/Daniels887/react-typescript-boilerplate" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
+              <Image src={Boilerplate} alt="Boilerplate React + Typescript + Webpack..." />
+            </a>
+            <Description>
+              <TitleDescription>Boilerplate React + Webpack + Typescript</TitleDescription>
+              Boilerplate criado para uso pessoal, facilitando a configuração do React com as principais tecnologias do mercado. Com configuração
+              voltada ao React com Typescript. Contém configuração do Cypress + Jest + Storybook.
+              <Techs>
+                <TechItemContainer>
+                  <TechItem>React</TechItem>
+                  <TechItem>Webpack</TechItem>
+                  <TechItem>Typescript</TechItem>
+                  <TechItem>Cypress</TechItem>
+                  <TechItem>Jest</TechItem>
+                </TechItemContainer>
+              </Techs>
+            </Description>
+            <a href="https://github.com/Daniels887/graphql-api" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
+              <Image src={Graphql} alt="Api GraphQL + Apollo Server + Knex" />
+            </a>
+            <Description>
+              <TitleDescription>Api criada com GraphQL + Apollo Server + Knex</TitleDescription>
+              Web App utilizando React, styled-components, eslint, prettier e react-icons. Nessa aplicação
+              os dados foram buscados da api pública do Github, onde podemos pesquisar um repósitorio
+              e ver detalhes sobre ele e issues que o mesmo possui.
+              <Techs>
+                <TechItemContainer>
+                  <TechItem>GraphQL</TechItem>
+                  <TechItem>Apollo Server</TechItem>
+                  <TechItem>Knex</TechItem>
+                  <TechItem>MySql</TechItem>
+                </TechItemContainer>
+              </Techs>
+            </Description>
+            <a href="https://github.com/Daniels887/app-deno" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
+              <Image src={Deno} alt="Fake api criada com Deno" />
+            </a>
+            <Description>
+              <TitleDescription>Fake api criada com Deno + Typescript</TitleDescription>
+              Api fake criada para testar o novo runtime javascript: Deno, utilizando a biblioteca Oak para trabalhar com servidor e rotas e Typescript.
+              Sem uso de banco de dados, contudo um CRUD completo feito para descobrir as peculiaridades da ferramenta em questão.
+              <Techs>
+                <TechItemContainer>
+                  <TechItem>Deno</TechItem>
+                  <TechItem>Oak</TechItem>
+                  <TechItem>Typescript</TechItem>
+                </TechItemContainer>
+              </Techs>
+            </Description>
             <a href="https://github.com/Daniels887/dashboard-front" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
               <Image src={Dashboard} alt="Dashboard React" />
             </a>
@@ -46,57 +96,6 @@ export default function Projects() {
                   <TechItem>ExpressJS</TechItem>
                   <TechItem>Mongoose</TechItem>
                   <TechItem>Multer</TechItem>
-                </TechItemContainer>
-              </Techs>
-            </Description>
-            <a href="https://github.com/Daniels887/githubapp" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
-              <Image src={Github} alt="Web App GitHub" />
-            </a>
-            <Description>
-              <TitleDescription>Web App utilizando a api do Github</TitleDescription>
-              Web App utilizando React, styled-components, eslint, prettier e react-icons. Nessa aplicação
-              os dados foram buscados da api pública do Github, onde podemos pesquisar um repósitorio
-              e ver detalhes sobre ele e issues que o mesmo possui.
-              <Techs>
-                <TechItemContainer>
-                  <TechItem>React</TechItem>
-                  <TechItem>Styled Components</TechItem>
-                  <TechItem>Prettier</TechItem>
-                  <TechItem>Eslint</TechItem>
-                </TechItemContainer>
-              </Techs>
-            </Description>
-            <a href="https://github.com/Daniels887/web-scraping" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
-              <Image src={Node} alt="Web Scraping com Node" />
-            </a>
-            <Description>
-              <TitleDescription>Web Scraping com Node</TitleDescription>
-              Script de teste feito com Node e a biblioteca Cheerio para percorrer a DOM da resposta da requisição,
-              utilizado dotenv para proteger dados sensíveis e mongoose como ODM do mongoDB para salvar os dados
-              extraídos do site pesquisado.
-              <Techs>
-                <TechItemContainer>
-                  <TechItem>Node</TechItem>
-                  <TechItem>Mongoose</TechItem>
-                  <TechItem>Cheerio</TechItem>
-                  <TechItem>Request</TechItem>
-                </TechItemContainer>
-              </Techs>
-            </Description>
-            <a href="https://github.com/Daniels887/rocketshoes" target="_blank" rel="noopener noreferrer" title="Clique para ver.">
-              <Image src={Rocketshoes} alt="Web app de um E-commerce de tênis" />
-            </a>
-            <Description>
-              <TitleDescription>Web app de um E-commerce de tênis</TitleDescription>
-              Web App utilizando React, Redux e Redux-saga, aplicação feita durante o bootcamp goStack 
-              da Rocketseat, nele foi utilizado Redux para gerenciar o estado global da aplicação, redux-saga
-              para gerenciar os efeitos colaterais da aplicação.
-              <Techs>
-                <TechItemContainer>
-                  <TechItem>React</TechItem>
-                  <TechItem>Redux</TechItem>
-                  <TechItem>Redux Saga</TechItem>
-                  <TechItem>Styled components</TechItem>
                 </TechItemContainer>
               </Techs>
             </Description>
