@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <HomeContainer>
-      <Navigate to="/about"><FaArrowRight color="#333" size="15" alt="Arrow Right" /></Navigate>
+      <Navigate to="/about"><FaArrowRight color="#333" size="15" alt="Arrow Right" tabIndex="0"/></Navigate>
       <Container>
           <Image src={Daniel} alt="Daniel de Sousa" />
         <Text ref={ref}></Text>

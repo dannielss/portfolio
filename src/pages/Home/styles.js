@@ -43,7 +43,8 @@ export const Navigate = styled(Link)`
   align-self: flex-end;
   transition: 0.2s;
 
-  &:hover {
-    background: #ddd;
+  &:hover,&:focus {
+    box-shadow: 0 0 2pt 2pt gray;
+    border-radius: 50%;
   }
 `;
