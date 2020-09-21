@@ -7,11 +7,30 @@ export default function Experiences() {
     <Container>
       <Title>Experiências Profissionais</Title>
       <ExperiencesContainer >
-        <Date>2020 - Atualmente</Date>
+        <Date>Set 2020 - Atualmente</Date>
         <Job>
-          <Name>AutoSeg - Front-end Júnior</Name>
-          <Description>Responsável por elaborar testes de integração utilizando Cypress, dar manutenção e criar features para 
-            os sistemas da empresa.
+          <Name>Konker Labs - Software Engineer</Name>
+          <Description>Responsável por elaborar criar features e dar manutenção nos produtos da empresa,
+          visando alta performance, experiência do usuário e criação de interfaces mais atrativas.
+          </Description>
+          <Techs>
+            <TechTitle>Principais tecnologias utilizadas:</TechTitle>
+            <TechItemContainer>
+              <TechItem>React</TechItem>
+              <TechItem>Redux</TechItem>
+              <TechItem>Typescript</TechItem>
+              <TechItem>Webpack</TechItem>
+              <TechItem>Material UI</TechItem>
+            </TechItemContainer>
+          </Techs>
+        </Job>
+      </ExperiencesContainer>
+      <ExperiencesContainer >
+        <Date>Mar 2020 - Set 2020</Date>
+        <Job>
+          <Name>AutoSeg - Software Engineer</Name>
+          <Description>Responsável por elaborar testes de integração utilizando Cypress, dar manutenção e criar features para
+          os sistemas da empresa visando alta performance e segurança dos dados.
           </Description>
           <Techs>
             <TechTitle>Principais tecnologias utilizadas:</TechTitle>
@@ -26,11 +45,11 @@ export default function Experiences() {
         </Job>
       </ExperiencesContainer>
       <ExperiencesContainer >
-        <Date>2019 - 2020</Date>
+        <Date>Jul 2019 - Mar 2020</Date>
         <Job>
-          <Name>Atmo - Mídia Digital Corporativa - Front-end Júnior</Name>
-          <Description>Responsável por construir um sistema em Electron para atender à publicidade de grandes marcas, 
-            além de dar manutenção e criar feature nos outros sistemas da empresa.</Description>
+          <Name>Atmo - Mídia Digital Corporativa - Front-end Developer</Name>
+          <Description>Responsável por construir um sistema em Electron para atender à publicidade de grandes marcas,
+            além de dar manutenção e criar features nos outros sistemas da empresa.</Description>
           <Techs>
             <TechTitle>Principais tecnologias utilizadas:</TechTitle>
             <TechItemContainer>
@@ -43,9 +62,9 @@ export default function Experiences() {
         </Job>
       </ExperiencesContainer>
       <ExperiencesContainer last>
-        <Date>2018 - 2019</Date>
+        <Date>Jul 2018 - Jul 2019</Date>
         <Job>
-          <Name>BWCA - Estagiário Full Stack</Name>
+          <Name>BWCA - Full Stack Developer</Name>
           <Description>Responsável por construir e dar manutenção em sistemas e sites institucionais.</Description>
           <Techs>
             <TechTitle>Principais tecnologias utilizadas:</TechTitle>
