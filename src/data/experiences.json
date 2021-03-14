@@ -1,0 +1,51 @@
+{
+	"jobs": [
+		{
+			"date": "Dez 2020 - Atualmente",
+			"title": "Altran - Desenvolvedor React Native Sênior",
+			"description": "Responsável pela elaboração de um aplicativo em React Native no ramo de logística, criando features e trabalhando na concepção do aplicativo para o cliente.",
+			"techs": [
+				"React Native",
+				"GraphQL",
+				"Styled Components",
+				"Expo"
+			]
+		},
+		{
+			"date": "Set 2020 - Dez 2020",
+			"title": "Konker Labs - Desenvolvedor React JS Pleno",
+			"description": "Principal desenvolvedor da equipe, tendo como responsabilidades: elaborar criar features e dar manutenção nos produtos da empresa, visando alta performance, experiência do usuário e criação de interfaces mais atrativas.",
+			"techs": [
+				"React JS",
+				"Redux",
+				"Typescript",
+				"Webpack",
+				"Material UI"
+			]
+		},
+		{
+			"date": "Mar 2020 - Set 2020",
+			"title": "AutoSeg - Desenvolvedor React JS Júnior",
+			"description": "Responsável por elaborar testes de integração utilizando Cypress, dar manutenção e criar features para os sistemas da empresa visando alta performance e segurança dos dados.",
+			"techs": [
+				"React JS",
+				"Redux",
+				"Typescript",
+				"Cypress",
+				"Jest"
+			]
+		},
+		{
+			"date": "Jul 2019 - Mar 2020",
+			"title": "Atmo Digital - Desenvolvedor React JS Júnior",
+			"description": "Responsável por construir um sistema em Electron para atender à publicidade de grandes marcas, além de dar manutenção e criar features nos outros sistemas da empresa.",
+			"techs": [
+				"React JS",
+				"Node JS",
+				"Electron JS",
+				"JavaScript",
+				"Jest"
+			]
+		}
+	]
+}

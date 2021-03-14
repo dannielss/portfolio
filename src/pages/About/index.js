@@ -11,7 +11,6 @@ import Skills from '../../components/Skills';
 export default function About() {
   return (
     <AboutContainer>
-      <Navigate to="/projects"><FaArrowRight color="#333" size="15" alt="Arrow Right" /></Navigate>
       <Container>
         <Content>
           <Description />

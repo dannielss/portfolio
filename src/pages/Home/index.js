@@ -1,5 +1,4 @@
 import React, { useRef, useCallback, useEffect } from 'react';
-import { FaArrowRight } from 'react-icons/fa';
 
 import { HomeContainer, Container, Image, Text, Navigate } from './styles';
 import Daniel from '../../assets/daniel.jpg';
@@ -7,7 +6,7 @@ import Daniel from '../../assets/daniel.jpg';
 export default function Home() {
   const ref = useRef(null);
   let i = 0;
-  const txt = 'Daniel de Sousa Pereira | Desenvolvedor Front-end';
+  const txt = 'Daniel de Sousa Pereira | Desenvolvedor Front-end Sênior';
   const speed = 50;
   
   const typeWriter = useCallback(() => {
@@ -30,7 +29,6 @@ export default function Home() {
 
   return (
     <HomeContainer>
-      <Navigate to="/about"><FaArrowRight color="#333" size="15" alt="Arrow Right"/></Navigate>
       <Container>
           <Image src={Daniel} alt="Daniel de Sousa" />
         <Text ref={ref}></Text>

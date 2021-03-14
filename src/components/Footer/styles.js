@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   color: white;
   font-size: 16px;
-  margin-bottom: 20px;
+  padding-bottom: 16px;
 `;
 
 export const Link = styled.a`

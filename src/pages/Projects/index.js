@@ -11,7 +11,6 @@ import Deno from '../../assets/deno.png';
 export default function Projects() {
   return (
     <ProjectContainer>
-      <Navigate to="/contact"><FaArrowRight color="#333" size="15" alt="Arrow Right" /></Navigate>
       <Container>
         <Content>
           <Title>Alguns projetos meus...</Title>
